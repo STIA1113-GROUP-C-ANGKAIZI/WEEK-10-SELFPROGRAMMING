@@ -1,0 +1,27 @@
+package myArray;
+
+public class ArrayExerciseSum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		double[] myList = new double [4];
+		myList[0] = 1.9;
+		myList[1] = 2.9;
+		myList[2] = 3.4;
+		myList[3] = 3.5;
+		
+		double total = 0;
+		for (int i = 0; i < myList.length; i++) {
+			total += myList[i];
+			System.out.println("Total is " + total);
+		} // summing all elements
+	}
+
+}
+
+Output:
+Total is 1.9
+Total is 4.8
+Total is 8.2
+Total is 11.7
