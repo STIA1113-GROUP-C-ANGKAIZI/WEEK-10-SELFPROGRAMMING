@@ -1,0 +1,26 @@
+package myArray;
+import java.util.Scanner;
+public class Month {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner scan = new Scanner (System.in);
+		
+		String[] months = {"January", "February", "March", "April", "May", "Jun", "July", "Ogos", "September",
+				"October", "November", "Disember"};
+		System.out.print("Enter a month number (1 to 12): ");
+		int monthNumber = scan.nextInt();
+		System.out.println("The month is " + months[monthNumber - 1]);
+		//Simplifying coding
+	}
+
+}
+
+Output:
+Enter a month number (1 to 12): 5
+The month is May
+
+Output2:
+Enter a month number (1 to 12): 12
+The month is Disember
