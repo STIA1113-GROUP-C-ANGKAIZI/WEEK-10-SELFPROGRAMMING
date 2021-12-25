@@ -1,0 +1,26 @@
+package myArray;
+
+public class ArrayExercise {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		double[] myList = new double [4];
+		myList[0] = 1.9;
+		myList[1] = 2.9;
+		myList[2] = 3.4;
+		myList[3] = 3.5;
+		
+		
+		System.out.print("Enter "+ myList.length + " values: ");
+		for (int i = 0; i < myList.length; i++) {
+			System.out.print(myList[i] + " "); 
+		} // print array
+		
+		
+	}
+
+}
+
+output:
+Enter 4 values: 1.9 2.9 3.4 3.5 
