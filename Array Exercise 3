@@ -1,0 +1,19 @@
+package myArray;
+
+public class ArrayExercise3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int x = 30;
+		int [] numbers = new int [x];
+		x = 60;
+		System.out.println("x is " + x);
+		System.out.println("The size of number is " + numbers.length);
+	}
+
+}
+
+Output:
+x is 60
+The size of number is 30
